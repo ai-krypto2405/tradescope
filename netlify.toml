@@ -8,10 +8,5 @@
   NEXT_PUBLIC_APP_NAME = "TradeScope"
   NODE_VERSION = "18"
 
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
 [context.production]
   environment = { NODE_ENV = "production" }
