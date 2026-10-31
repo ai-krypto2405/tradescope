@@ -3,6 +3,9 @@
   command = "npm run build"
   publish = ".next"
 
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
 [build.environment]
   NEXT_PUBLIC_API_URL = "https://tradescope-backend.fly.dev"
   NEXT_PUBLIC_APP_NAME = "TradeScope"
