@@ -8,7 +8,7 @@ import logging
 
 from .config import settings
 from .database import init_db
-from .api import auth, backtest, stripe
+from .api import auth, backtest, stripe, health
 
 # Configure logging
 logging.basicConfig(
