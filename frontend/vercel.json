@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": {
+    "NEXT_PUBLIC_API_URL": "https://tradescope-backend.fly.dev",
+    "NEXT_PUBLIC_APP_NAME": "TradeScope",
+    "NODE_ENV": "production"
+  }
+}
